@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>SocialBook</title>
+    <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/aa4b7aa767.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+    <nav>
+      <div class="nav-left">
+        <a href="index.html">
+        <img src="images/logo.png" class="logo" alt="logo">
+        </a>
+        <ul>
+          <li><img src="images/notification.png" alt=""></li>
+          <li><img src="images/inbox.png" alt=""></li>
+          <li><img src="images/video.png" alt=""></li>
+        </ul>
+      </div>
+      <div class="nav-right">
+
+        <div class="search-box">
+          <img src="images/search.png" alt="search">
+          <input type="text" placeholder="Search">
+        </div>
+        <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+          <img src="images/profile-pic.png" alt="profile_pic">
+        </div>
+
+      </div>
+<!-- ----------settings-menu---------- -->
+      <div class="settings-menu">
+
+        <div id="dark-btn">
+          <span></span>
+        </div>
+
+        <div class="settings-menu-inner">
+          <div class="user-profile">
+            <img src="images/profile-pic.png" alt="">
+            <div class="">
+              <p>John Nicholson</p>
+              <a href="profile.html">See your profile</a>
+            </div>
+          </div>
+          <hr>
+          <div class="user-profile">
+            <img src="images/feedback.png" alt="">
+            <div class="">
+              <p>Give Feedback</p>
+              <a href="#">Help us to improve</a>
+            </div>
+          </div>
+          <hr>
+          <div class="settings-links">
+            <img src="images/setting.png" class="settings-icon" alt="">
+            <a href="#">Settings & privacy <img src="images/arrow.png" width="10px"></a>
+          </div>
+          <div class="settings-links">
+            <img src="images/help.png" class="settings-icon" alt="">
+            <a href="#">Help & Support <img src="images/arrow.png" width="10px"></a>
+          </div>
+          <div class="settings-links">
+            <img src="images/display.png" class="settings-icon" alt="">
+            <a href="#">Display & Accessibility <img src="images/arrow.png" width="10px"></a>
+          </div>
+          <div class="settings-links">
+            <img src="images/logout.png" class="settings-icon" alt="">
+            <a href="#">LogOut <img src="images/arrow.png" width="10px"></a>
+          </div>
+
+
+
+        </div>
+
+      </div>
+
+    </nav>
+
+    <div class="container">
+      <!-- ---------left--------- -->
+      <div class="left-sidebar">
+        <div class="imp-links">
+          <a href="#"><img src="images/news.png" alt="">Lastest News</a>
+          <a href="#"><img src="images/friends.png" alt="">Friends</a>
+          <a href="#"><img src="images/group.png" alt="">Group</a>
+          <a href="#"><img src="images/marketplace.png" alt="">Marketplace</a>
+          <a href="#"><img src="images/watch.png" alt="">Watch</a>
+            <a href="#">See More</a>
+        </div>
+        <div class="shortcut-links">
+          <p>Your Shortcut</p>
+            <a href="#"><img src="images/shortcut-1.png" alt="">Web Developers</a>
+            <a href="#"><img src="images/shortcut-2.png" alt="">Web Design</a>
+            <a href="#"><img src="images/shortcut-3.png" alt="">Full Stack Development</a>
+            <a href="#"><img src="images/shortcut-4.png" alt="">Website Experts</a>
+        </div>
+      </div>
+      <!-- ---------main--------- -->
+      <div class="main-content">
+
+        <div class="story-gallery">
+          <div class="story story1">
+            <img src="images/upload.png" alt="">
+            <p>Post Story</p>
+          </div>
+
+          <div class="story story2">
+            <img src="images/member-1.png" alt="">
+            <p>Alison</p>
+          </div>
+
+          <div class="story story3">
+            <img src="images/member-2.png" alt="">
+            <p>Jackson</p>
+          </div>
+
+          <div class="story story4">
+            <img src="images/member-3.png" alt="">
+            <p>samana</p>
+          </div>
+
+          <div class="story story5">
+            <img src="images/member-4.png" alt="">
+            <p>John Deo</p>
+          </div>
+        </div>
+
+        <div class="write-post-container">
+          <div class="user-profile">
+            <img src="images/profile-pic.png" alt="">
+            <div class="">
+              <p>John Nicholson</p>
+              <small>public <i class="fa-solid fa-sort-down"></i></small>
+            </div>
+          </div>
+
+          <div class="post-input-container">
+            <textarea rows="3" placeholder="What's on your mind, John"></textarea>
+            <div class="add-post-links">
+              <a href="#"><img src="images/live-video.png" alt="">Live Video</a>
+              <a href="#"><img src="images/photo.png" alt="">Photo/Video</a>
+              <a href="#"><img src="images/feeling.png" alt="">Felling/Activity</a>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="images/profile-pic.png" alt="">
+              <div class="">
+                <p>John Nicholson</p>
+                <span>Jan 24 2024, 14:00 pm</span>
+              </div>
+            </div>
+            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+          </div>
+
+          <p class="post-text">Subscribe to <span>@Coding Hub</span> youtube channel.
+            <a href="#">#Coding Hub</a> <a href="#">#YoutubeChannel</a>
+          </p>
+          <img src="images/feed-image-1.png" class="post-img" alt="">
+
+          <div class="post-row">
+            <div class="activity-icons">
+              <div class=""><img src="images/like-blue.png">120</div>
+              <div class=""><img src="images/comments.png">45</div>
+              <div class=""><img src="images/share.png">20</div>
+            </div>
+            <div class="post-profile-icon">
+              <img src="images/profile-pic.png" alt=""><i class="fa-solid fa-sort-down"></i>
+            </div>
+          </div>
+
+        </div>
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="images/profile-pic.png" alt="">
+              <div class="">
+                <p>John Nicholson</p>
+                <span>Jan 24 2024, 14:00 pm</span>
+              </div>
+            </div>
+            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+          </div>
+
+          <p class="post-text">Like and share this video with friends tag <span>@Coding Hub</span> facebook page.Ask your doubt on youtube channel.
+            <a href="#">#Coding Hub</a> <a href="#">#YoutubeChannel</a>
+          </p>
+          <img src="images/feed-image-2.png" class="post-img" alt="">
+
+          <div class="post-row">
+            <div class="activity-icons">
+              <div class=""><img src="images/like-blue.png">320</div>
+              <div class=""><img src="images/comments.png">55</div>
+              <div class=""><img src="images/share.png">29</div>
+            </div>
+            <div class="post-profile-icon">
+              <img src="images/profile-pic.png" alt=""><i class="fa-solid fa-sort-down"></i>
+            </div>
+          </div>
+
+        </div>
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="images/profile-pic.png" alt="">
+              <div class="">
+                <p>John Nicholson</p>
+                <span>Jan 24 2024, 14:00 pm</span>
+              </div>
+            </div>
+            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+          </div>
+
+          <p class="post-text">Like and share this video with friends tag <span>@Coding Hub</span> facebook page.Ask your doubt on youtube channel.
+            <a href="#">#Coding Hub</a> <a href="#">#YoutubeChannel</a>
+          </p>
+          <img src="images/feed-image-3.png" class="post-img" alt="">
+
+          <div class="post-row">
+            <div class="activity-icons">
+              <div class=""><img src="images/like-blue.png">320</div>
+              <div class=""><img src="images/comments.png">55</div>
+              <div class=""><img src="images/share.png">29</div>
+            </div>
+            <div class="post-profile-icon">
+              <img src="images/profile-pic.png" alt=""><i class="fa-solid fa-sort-down"></i>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="images/profile-pic.png" alt="">
+              <div class="">
+                <p>John Nicholson</p>
+                <span>Jan 24 2024, 14:00 pm</span>
+              </div>
+            </div>
+            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+          </div>
+
+          <p class="post-text">Like and share this video with friends tag <span>@Coding Hub</span> facebook page.Ask your doubt on youtube channel.
+            <a href="#">#Coding Hub</a> <a href="#">#YoutubeChannel</a>
+          </p>
+          <img src="images/feed-image-4.png" class="post-img" alt="">
+
+          <div class="post-row">
+            <div class="activity-icons">
+              <div class=""><img src="images/like-blue.png">320</div>
+              <div class=""><img src="images/comments.png">55</div>
+              <div class=""><img src="images/share.png">29</div>
+            </div>
+            <div class="post-profile-icon">
+              <img src="images/profile-pic.png" alt=""><i class="fa-solid fa-sort-down"></i>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="images/profile-pic.png" alt="">
+              <div class="">
+                <p>John Nicholson</p>
+                <span>Jan 24 2024, 14:00 pm</span>
+              </div>
+            </div>
+            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+          </div>
+
+          <p class="post-text">Like and share this video with friends tag <span>@Coding Hub</span> facebook page.Ask your doubt on youtube channel.
+            <a href="#">#Coding Hub</a> <a href="#">#YoutubeChannel</a>
+          </p>
+          <img src="images/feed-image-5.png" class="post-img" alt="">
+
+          <div class="post-row">
+            <div class="activity-icons">
+              <div class=""><img src="images/like-blue.png">320</div>
+              <div class=""><img src="images/comments.png">55</div>
+              <div class=""><img src="images/share.png">29</div>
+            </div>
+            <div class="post-profile-icon">
+              <img src="images/profile-pic.png" alt=""><i class="fa-solid fa-sort-down"></i>
+            </div>
+          </div>
+
+        </div>
+
+        <button type="button" name="button" class="load-more-btn">Load More</button>
+
+
+      </div>
+      <!-- ---------right--------- -->
+      <div class="right-sidebar">
+
+        <div class="sidebar-title">
+          <h4>Events</h4>
+          <a href="#">See All</a>
+        </div>
+
+        <div class="event">
+          <div class="left-event">
+            <h3>26</h3>
+            <span>March</span>
+          </div>
+          <div class="right-event">
+            <h4>Social Media</h4>
+            <p><i class="fa-solid fa-location-dot"></i> Cyber Tech Park</p>
+            <a href="#">More Info</a>
+          </div>
+        </div>
+        <div class="event">
+          <div class="left-event">
+            <h3>29</h3>
+            <span>May</span>
+          </div>
+          <div class="right-event">
+            <h4>WebD Class</h4>
+            <p><i class="fa-solid fa-location-dot"></i> Cyber Tech Park</p>
+            <a href="#">More Info</a>
+          </div>
+        </div>
+        <div class="sidebar-title">
+          <h4>Advertisement</h4>
+          <a href="#">Closed</a>
+        </div>
+
+        <img src="images/advertisement.png" class="sidebar-ads" alt="">
+
+        <div class="sidebar-title">
+          <h4>Conversation</h4>
+          <a href="#">Hide Chat</a>
+        </div>
+
+        <div class="online-list">
+          <div class="online">
+            <img src="images/member-1.png" alt="">
+          </div>
+          <p>Alison Mina</p>
+        </div>
+
+        <div class="online-list">
+          <div class="online">
+            <img src="images/member-2.png" alt="">
+          </div>
+          <p>Jackson Aston</p>
+        </div>
+
+        <div class="online-list">
+          <div class="online">
+            <img src="images/member-3.png" alt="">
+          </div>
+          <p>Samonsa</p>
+        </div>
+
+      </div>
+    </div>
+    <div class="footer">
+      <p>Copyright Navneet</p>
+    </div>
+<script src="script.js"></script>
+  </body>
+</html>
